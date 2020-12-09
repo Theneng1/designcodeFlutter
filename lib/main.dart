@@ -32,26 +32,6 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              Container(
-                width: 42,
-                height: 42,
-                padding: EdgeInsets.all(10.0),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(14.0),
-                  gradient: LinearGradient(
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                    colors: [
-                      Color(0xFF00AEFF),
-                      Color(0xFF0076FF),
-                    ],
-                  ),
-                ),
-                child: Icon(
-                  Icons.home,
-                  color: Colors.white,
-                ),
-              ),
               SizedBox(width: 12),
               Container(
                 child: Text(
